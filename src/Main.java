@@ -13,7 +13,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Cliente: ");
         String client = scanner.next();
-
     }
 
     static void car() {
@@ -34,6 +33,7 @@ public class Main {
         int time = scanner.nextInt();
         return time;
     }
+
     static void value(){
         int number = time();
         System.out.println("Valor a ser cobrado: " + number * 10);
