@@ -16,9 +16,8 @@ public class Charge {
     public void value(){
         int y = horaEntrada();
         int x = horaSaida();
-        int z = x - y;
+        int z = (x - y);
         System.out.println("O valor a ser cobrado é: R$" + z * 10);
     }
-
 
 }
