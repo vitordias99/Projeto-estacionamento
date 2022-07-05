@@ -4,10 +4,8 @@ public class Client {
 
    public void name() {
         Scanner scanner = new Scanner(System.in);
-        //PrintStream save = new PrintStream(System.out);
         System.out.println("Cliente: ");
         String client = scanner.next();
-        System.out.println(client);
     }
 
     public void car() {
