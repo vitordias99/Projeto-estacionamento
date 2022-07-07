@@ -71,8 +71,8 @@ public class Main {
         System.out.println("O cliente escolheu o " + carroEscolhido.getModelo());
         System.out.println("O funcionário " + funcionarioEscolhido.getNome() + " realizou a operação");
         charge.value();
+        double i = charge.horaSaida();
 
-        int i = charge.horaSaida();
         if (i >= 6) {
             System.out.println("Rodolfo finalizou a operação");
         } else if (i >= 12) {
@@ -80,6 +80,7 @@ public class Main {
         } else {
             System.out.println("André finalizou a operação");
         }
+
     }
 }
 
